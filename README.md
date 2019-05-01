@@ -9,3 +9,6 @@ If you want to add you own box use the desktop-branch
 - install virtual box and vagrant
 - clone this repo
 - type "vagrant up"
+
+if you get an error you can try to install guest additions like this:
+vagrant vbguest --do install

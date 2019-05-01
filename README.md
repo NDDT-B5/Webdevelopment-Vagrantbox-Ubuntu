@@ -1,5 +1,10 @@
 # Wevdevelopment-Vagrantbox-Ubuntu
 Vagrantbox containing Webdev Enviroment
 
-the master-branch downloads the box automatically from the vagrant cloud
-the desktop-branch will let you use a local box that you have to add manually. Name it ubuntu64.
+with this branch you have to add the base-box yourself. The master-branch will automatically download the box.
+
+# How to use
+
+- Install virtalbox and vagrant
+- add a new box with the name ubuntu64 like this. "vagrant box add ubuntu64 path/of/the/box"
+- clone and type vagrant up
